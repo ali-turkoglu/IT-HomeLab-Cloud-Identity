@@ -91,12 +91,12 @@ To keep things simple, here is how the different parts of this HomeLab communica
 
 | Status | Phase |
 |:------:|-------|
-| 🚧 | Phase 13 – Microsoft 365 Tenant Deployment |
-| ⬜ | Phase 14 – Microsoft Entra ID Administration |
-| ⬜ | Phase 15 – Microsoft 365 Services |
-| ⬜ | Phase 16 – Hybrid Identity |
-| ⬜ | Phase 17 – Endpoint Management (Microsoft Intune) |
-| ⬜ | Phase 18 – Cloud File Services |
+| ✅ | [Phase 13 – Cloud Environment Preparation](docs/13-Cloud-Environment-Preparation/README.md) |
+| 🚧 | Phase 14 – Microsoft Entra ID Administration |
+| ⏳ | Phase 15 – Microsoft 365 Services |
+| ⏳ | Phase 16 – Hybrid Identity |
+| ⏳ | Phase 17 – Endpoint Management (Microsoft Intune) |
+| ⏳ | Phase 18 – Cloud File Services |
 
 ---
 
