@@ -43,7 +43,7 @@ A new Microsoft 365 tenant was created using the **ithomelab.onmicrosoft.com** d
 
 | Microsoft 365 Business Premium Trial | Tenant Configuration |
 |:------------------------------------:|:--------------------:|
-| ![](images/01-m365-trial.png) | ![](images/02-tenant-creation.png) |
+| ![](images/01-m365-trial.png) | ![](images/02-tenant-creation.png.png) |
 
 During the initial setup, Microsoft required Multi-Factor Authentication (MFA). MFA was enabled for the Global Administrator account before accessing the tenant to ensure maximum security from day one.
 
