@@ -29,7 +29,7 @@ In this phase, I used the admin center to perform the core identity management t
 | Component | Details |
 |-----------|---------|
 | Virtualization | Proxmox VE |
-| Client OS | Windows 11 Pro |
+| Client OS | Windows 11 Pro VM |
 | Cloud Service | Microsoft 365 Business Premium Trial |
 | Identity Platform | Microsoft Entra ID |
 | Management Portal | Microsoft Entra Admin Center |
