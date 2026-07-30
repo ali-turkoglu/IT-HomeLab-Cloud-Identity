@@ -100,4 +100,4 @@ In the following phase, I will start configuring Microsoft Entra ID by creating 
 
 | Previous | Home | Next |
 |:--------:|:----:|:----:|
-| ⬅️ [Project Overview](../../README.md) | 🏠  [Home](../../README.md) | ➡️ Phase 14: Microsoft Entra ID Administration *(Coming Soon)* |
+| ⬅️ [Project Overview](../../README.md) | 🏠  [Home](../../README.md) | ➡️ [Microsoft Entra ID Fundamentals](../14-Microsoft-Entra-ID-Fundamentals/README.md) |
