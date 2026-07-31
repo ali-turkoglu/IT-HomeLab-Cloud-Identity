@@ -1,4 +1,4 @@
-# 15 – Microsoft Entra ID Security
+# Phase 15 – Microsoft Entra ID Security
 
 > **Status:** ✅ Completed
 
@@ -41,7 +41,7 @@ A highly complex password was configured for this account. Multi-Factor Authenti
 
 | Create Emergency Admin | Assign Global Administrator Role |
 |:----------------------:|:--------------------------------:|
-| ![](images/01-create-emergency-admin.png) | ![](images/02-emergency-admin-roles.png) |
+| ![](images/09-create-emergency-admin-user.png) | ![](images/11-global-admin-assignment.png) |
 
 ---
 
@@ -53,7 +53,7 @@ Microsoft Authenticator was enabled for all users, and number matching was confi
 
 | Authenticator Settings (Enable) | Authenticator Settings (Configure) |
 |:-------------------------------:|:----------------------------------:|
-| ![](images/03-authenticator-enable.png) | ![](images/04-authenticator-config.png) |
+| ![](images/04-microsoft-authenticator-policy.png) | ![](images/05-microsoft-authenticator-configure-part1.png) |
 
 ---
 
@@ -65,7 +65,7 @@ I configured MFA using Microsoft Authenticator for my regular administrative acc
 
 | Azure MFA Enforcement Notice | Microsoft Authenticator Prompt |
 |:----------------------------:|:------------------------------:|
-| ![](images/05-mfa-enforcement.png) | <img src="images/06-mfa-phone-prompt.png" width="300"> |
+| ![](images/02-mandatory-mfa-phase2.png) | <img src="images/13-microsoft-MFA-tool.png" width="300"> |
 
 ---
 
@@ -77,7 +77,7 @@ By default, users are prompted to reconfirm their authentication information eve
 
 | SSPR Properties | SSPR Registration Settings |
 |:---------------:|:--------------------------:|
-| ![](images/07-sspr-properties.png) | ![](images/08-sspr-registration.png) |
+| ![](images/06-sspr-overview.png) | ![](images/08-sspr-registration-settings.png) |
 
 ---
 
@@ -91,7 +91,7 @@ The default Smart Lockout settings were left unchanged, and custom banned passwo
 
 | Password Protection Settings |
 |:----------------------------:|
-| ![](images/09-password-protection.png) |
+| ![](images/14-password-protection.png) |
 
 ---
 
@@ -103,7 +103,7 @@ The recommendations highlighted several best practices and provided guidance for
 
 | Identity Secure Score Dashboard | Security Recommendations |
 |:-------------------------------:|:------------------------:|
-| ![](images/10-secure-score-dashboard.png) | ![](images/11-secure-score-recs.png) |
+| ![](images/15-identity-secure-score.png) | ![](images/16-security-recommendations.png) |
 
 ---
 
