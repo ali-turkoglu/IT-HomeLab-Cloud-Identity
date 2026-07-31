@@ -151,4 +151,4 @@ This phase provided a solid understanding of Microsoft Entra ID administration a
 
 | Previous | Home | Next |
 |:--------:|:----:|:----:|
-| ⬅️ [Phase 13: Cloud Environment Preparation](../13-Cloud-Environment-Preparation/README.md) | 🏠 [Home](../../README.md) | ➡️ Phase 15: *(Coming Soon)* |
+| ⬅️ [Cloud Environment Preparation](../13-Cloud-Environment-Preparation/README.md) | 🏠 [Home](../../README.md) | ➡️ [Microsoft Entra ID Security](../15-Microsoft-Entra-ID-Security/README.md) |
