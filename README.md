@@ -94,10 +94,10 @@ To keep things simple, here is how the different parts of this HomeLab communica
 | ✅ | [Phase 13 – Cloud Environment Preparation](docs/13-Cloud-Environment-Preparation/README.md) |
 | ✅ | [Phase 14 – Microsoft Entra ID Fundamentals](docs/14-Microsoft-Entra-ID-Fundamentals/README.md) |
 | ✅ | [Phase 15 – Microsoft Entra ID Security](docs/15-Microsoft-Entra-ID-Security/README.md) |
-| 🚧 | Phase 16 – Microsoft 365 Services |
-| ⏳ | Phase 17 – Hybrid Identity |
-| ⏳ | Phase 18 – Endpoint Management (Microsoft Intune) |
-| ⏳ | Phase 19 – Cloud File Services |
+| ✅ | [Phase 16 – Microsoft Entra ID Connect Cloud Sync](docs/16-Microsoft-Entra-ID-Connect-Cloud-Sync/READEME.md) |
+| 🚧 | Phase 17 – Microsoft 365 Services |
+| ⏳ | Phase 18 – Cloud File Services |
+| ⏳ | Phase 19 – Endpoint Management (Microsoft Intune) |
 
 ---
 
