@@ -122,4 +122,4 @@ The recommendations highlighted several best practices and provided guidance for
 
 | Previous | Home | Next |
 |:--------:|:----:|:----:|
-| ⬅️ [Phase 14: Microsoft Entra ID Fundamentals](../14-Microsoft-Entra-ID-Fundamentals/README.md) | 🏠 [Home](../../README.md) | ➡️ Phase 16: Hybrid Identity *(Coming Soon)* |
+| ⬅️ [Phase 14: Microsoft Entra ID Fundamentals](../14-Microsoft-Entra-ID-Fundamentals/README.md) | 🏠 [Home](../../README.md) | ➡️ [Phase 16: Microsoft Entra ID Connect Cloud Sync](../16-Microsoft-Entra-ID-Connect-Cloud-Sync/README.md) |
