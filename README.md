@@ -95,9 +95,19 @@ To keep things simple, here is how the different parts of this HomeLab communica
 | ✅ | [Phase 14 – Microsoft Entra ID Fundamentals](docs/14-Microsoft-Entra-ID-Fundamentals/README.md) |
 | ✅ | [Phase 15 – Microsoft Entra ID Security](docs/15-Microsoft-Entra-ID-Security/README.md) |
 | ✅ | [Phase 16 – Microsoft Entra ID Connect Cloud Sync](docs/16-Microsoft-Entra-ID-Connect-Cloud-Sync/READEME.md) |
-| 🚧 | Phase 17 – Microsoft 365 Services |
-| ⏳ | Phase 18 – Cloud File Services |
+| ⏸️ | Phase 17 – Microsoft 365 Services (Temporarily On Hold)|
+| 🚧 | Phase 18 – Cloud File Services |
 | ⏳ | Phase 19 – Endpoint Management (Microsoft Intune) |
+
+> **Note**
+>
+> Phase 17 is temporarily on hold because Exchange Online is not working correctly in my Microsoft 365 tenant.
+>
+> I opened a support ticket with Microsoft, and the issue is currently being investigated.
+>
+> I will continue this phase after the Exchange Online problem is resolved.
+>
+> Until then, I will continue with **Phase 18 – Cloud File Services**.
 
 ---
 
