@@ -183,4 +183,4 @@ The Cloud File Services phase was completed by building a small SharePoint envir
 
 | Previous | Home | Next |
 |:--------:|:----:|:----:|
-| ⬅️ [Phase 16 – Microsoft Entra ID Connect Cloud Sync](docs/16-Microsoft-Entra-ID-Connect-Cloud-Sync/READEME.md) | 🏠 [Home](../../README.md) | ➡️ Phase 19: Phase 17: Endpoint Management (Intune) *(Coming Soon)* |
+| ⬅️ [Phase 16 – Microsoft Entra ID Connect Cloud Sync](../16-Microsoft-Entra-ID-Connect-Cloud-Sync/READEME.md) | 🏠 [Home](../../README.md) | ➡️ Phase 19: Phase 17: Endpoint Management (Intune) *(Coming Soon)* |
