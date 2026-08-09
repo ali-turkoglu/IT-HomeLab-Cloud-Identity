@@ -31,7 +31,7 @@ I also created a simple company portal to represent the main landing page of the
 
 | SharePoint Start Page | Company Portal Homepage |
 |:---------------------:|:-----------------------:|
-| ![](images/01-Sharepoint-page.png) | ![](images/03-phase18-company-portal-homepage.png) |
+| ![](images/01-Sharepoint-page.png) | ![](images/03-company-portal-home.png) |
 
 ---
 
