@@ -123,4 +123,4 @@ To continue the installation, I temporarily disabled IE ESC for the Administrato
 
 | Previous | Home | Next |
 |:--------:|:----:|:----:|
-| ⬅️ [Phase 15: Microsoft Entra ID Security](../15-Microsoft-Entra-ID-Security/README.md) | 🏠 [Home](../../README.md) | ➡️ Phase 17: Microsoft 365 Services *(Coming Soon)* |
+| ⬅️ [Phase 15: Microsoft Entra ID Security](../15-Microsoft-Entra-ID-Security/README.md) | 🏠 [Home](../../README.md) | ➡️ [Phase 18 – Cloud File Services](docs/18–Cloud-File-Services/README.md) |
