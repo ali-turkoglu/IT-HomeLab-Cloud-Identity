@@ -97,7 +97,8 @@ To keep things simple, here is how the different parts of this HomeLab communica
 | ✅ | [Phase 16 – Microsoft Entra ID Connect Cloud Sync](docs/16-Microsoft-Entra-ID-Connect-Cloud-Sync/README.md) |
 | ⏸️ | Phase 17 – Microsoft 365 Services (Temporarily On Hold)|
 | ✅ | [Phase 18 – Cloud File Services](docs/18–Cloud-File-Services/README.md) |
-| 🚧 | Phase 19 – Endpoint Management (Microsoft Intune) |
+| ✅ | [Phase 19 – Microsoft Entra Connect & Hybrid Device Synchronization](docs/19–Entra-Connect-Hybrid-Device-Sync/README.md)
+| 🚧 | Phase 20 – Endpoint Management (Microsoft Intune) |
 
 > **Note**
 >
@@ -117,7 +118,8 @@ To keep things simple, here is how the different parts of this HomeLab communica
 - **30-07-2026** – Phase 14: Microsoft Entra ID Fundamentals completed.
 - **31-07-2026** - Phase 15: Microsoft Entra ID Security completed.
 - **03-08-2026** - Phase 16: Microsoft Entra Connect Cloud Sync completed.
-- **09-08-2026** - Phase 18 – Cloud File Services completed.
+- **09-08-2026** - Phase 18: Cloud File Services completed.
+- **12-08-2026** - Phase 19: Microsoft Entra Connect & Hybrid Device Synchronization completed.
   
 ---
 
