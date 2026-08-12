@@ -69,7 +69,7 @@ This keeps the two synchronization scopes separate and avoids unnecessary overla
 
 I downloaded the Microsoft Entra Connect Sync installer from the Microsoft Entra admin center.
 
-![Download Microsoft Entra Connect](../../images/10-Hybrid-Identity-01-Entra-Connect-Download.png)
+![Download Microsoft Entra Connect](images/10-Hybrid-Identity-01-Entra-Connect-Download.png)
 
 ---
 
@@ -85,7 +85,7 @@ My lab needed some additional configuration, including:
 
 Because of this, I selected **Customize**.
 
-![Microsoft Entra Connect Express Settings](../../images/11-Hybrid-Identity-01-Entra-Connect-Express-Settings.png)
+![Microsoft Entra Connect Express Settings](images/11-Hybrid-Identity-01-Entra-Connect-Express-Settings.png)
 
 The installer also warned me that `homelab.local` is not a public internet domain.
 
@@ -97,7 +97,7 @@ This is expected because `homelab.local` is only used inside my HomeLab.
 
 The installer checked my server and installed the required components.
 
-![Required Components](../../images/12-Hybrid-Identity-02-Connect-Sync-Required-Components.png)
+![Required Components](images/12-Hybrid-Identity-02-Connect-Sync-Required-Components.png)
 
 I used the default database and installation location because they are enough for this HomeLab.
 
@@ -107,7 +107,7 @@ I used the default database and installation location because they are enough fo
 
 For the sign-in method, I selected **Do not configure**.
 
-![User Sign-in](../../images/13-Hybrid-Identity-03-Connect-Sync-UserSignIn.png)
+![User Sign-in](images/13-Hybrid-Identity-03-Connect-Sync-User-SignIn.png)
 
 I did not need another user sign-in configuration for this setup.
 
@@ -119,11 +119,11 @@ I added my local Active Directory forest:
 
 `homelab.local`
 
-![Connect Directories](../../images/14-Hybrid-Identity-04-Connect-Directories.png)
+![Connect Directories](images/14-Hybrid-Identity-04-Connect-Directories.png)
 
 The connection was successful.
 
-![Connected Directory](../../images/16-Hybrid-Identity-04-Connect-Directories-Success.png)
+![Connected Directory](images/16-Hybrid-Identity-04-Connect-Directories-Success.png)
 
 ---
 
@@ -133,7 +133,7 @@ Microsoft Entra Connect needs an account with the required permissions to access
 
 I let the wizard create the required account automatically and provided my Enterprise Admin credentials.
 
-![AD Forest Account](../../images/15-Hybrid-Identity-05-AD-Forest-Account.png)
+![AD Forest Account](images/15-Hybrid-Identity-05-AD-Forest-Account.png)
 
 For this HomeLab, I used the existing administrator account to keep the setup simple.
 
@@ -162,7 +162,7 @@ I kept `homelab.local` because it is already used by my HomeLab. I did not chang
 
 Microsoft Entra Connect also showed the User Principal Name (UPN) configuration.
 
-![User Identification](../../images/17-Hybrid-Identity-06-AD-User-UPN-Check.png)
+![User Identification](images/17-Hybrid-Identity-06-AD-User-UPN-Check.png)
 
 My local users use the `@homelab.local` suffix.
 
@@ -185,7 +185,7 @@ I selected only the `Workstations` OU.
     - WIN11-CL01
     - WIN11-CL02
 
-![OU Filtering](../../images/18-Hybrid-Identity-07-OU-Filtering-Workstations.png)
+![OU Filtering](images/18-Hybrid-Identity-07-OU-Filtering-Workstations.png)
 
 This keeps the synchronization scope small and makes the setup easier to manage.
 
@@ -201,7 +201,7 @@ and:
 
 **Let Azure manage the source anchor**
 
-![User Identification](../../images/19-Hybrid-Identity-08-Connect-Sync-User-Identification.png)
+![User Identification](images/19-Hybrid-Identity-08-Connect-Sync-User-Identification.png)
 
 I did not need to create a custom source anchor for this HomeLab.
 
@@ -216,7 +216,7 @@ I kept the synchronization limited to the devices in the selected OU.
     - WIN11-CL01
     - WIN11-CL02
 
-![Filtering](../../images/20-Hybrid-Identity-09-Connect-Sync-Filtering.png)
+![Filtering](images/20-Hybrid-Identity-09-Connect-Sync-Filtering.png)
 
 This keeps the Cloud Sync and Connect Sync scopes separate.
 
@@ -231,7 +231,7 @@ I did not select additional features such as:
 - Group Writeback
 - Device Writeback
 
-![Optional Features](../../images/21-Hybrid-Identity-10-Connect-Sync-Optional-Features.png)
+![Optional Features](images/21-Hybrid-Identity-10-Connect-Sync-Optional-Features.png)
 
 I kept the configuration focused on what I needed for this phase.
 
@@ -255,7 +255,7 @@ I configured the Service Connection Point (SCP).
 
 The SCP is like a signpost. It tells my domain-joined Windows computers which Microsoft Entra tenant they should use.
 
-![SCP Configuration](../../images/23-scp-configuration.png)
+![SCP Configuration](images/23-scp-configuration.png)
 
 I authenticated with my administrator account and configured the SCP for my `homelab.local` forest.
 
@@ -320,7 +320,7 @@ The Microsoft Entra admin center showed:
 
 **WIN11-CL02 – Microsoft Entra hybrid joined**
 
-![Microsoft Entra Hybrid Joined Device](../../images/24-entra-hybrid-joined-device.png)
+![Microsoft Entra Hybrid Joined Device](images/24-entra-hybrid-joined-device.png)
 
 I also ran:
 
