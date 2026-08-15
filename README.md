@@ -139,11 +139,10 @@ To keep things simple, here is how the different parts of this HomeLab communica
   
 ---
 
-### ➡️ Next Repository
-
-**IT-HomeLab-Linux-Containers**
+**➡️ Next Repository: IT-HomeLab-Linux-Containers**
 
 The next repository will focus on Ubuntu Server, Docker, Portainer, container management, and Linux administration.
+
 ---
 
 ## License
