@@ -98,7 +98,7 @@ To keep things simple, here is how the different parts of this HomeLab communica
 | ⏸️ | Phase 17 – Microsoft 365 Services (Temporarily On Hold)|
 | ✅ | [Phase 18 – Cloud File Services](docs/18–Cloud-File-Services/README.md) |
 | ✅ | [Phase 19 – Microsoft Entra Connect & Hybrid Device Synchronization](docs/19–Entra-Connect-Hybrid-Device-Sync/README.md)
-| 🚧 | Phase 20 – Endpoint Management (Microsoft Intune) |
+| ✅ | [Phase 20 - Microsoft Intune & Endpoint Management](docs/20–Microsoft-Intune-Endpoint-Management/README.md)  |
 
 > **Note**
 >
@@ -120,6 +120,7 @@ To keep things simple, here is how the different parts of this HomeLab communica
 - **03-08-2026** - Phase 16: Microsoft Entra Connect Cloud Sync completed.
 - **09-08-2026** - Phase 18: Cloud File Services completed.
 - **12-08-2026** - Phase 19: Microsoft Entra Connect & Hybrid Device Synchronization completed.
+- **15-08-2026** - Phase 20: Microsoft Intune & Endpoint Management completed. 
   
 ---
 
@@ -129,18 +130,20 @@ To keep things simple, here is how the different parts of this HomeLab communica
 | Repository | Status |
 |------------|:------:|
 | [IT-HomeLab-Windows-Infrastructure](https://github.com/ali-turkoglu/IT-HomeLab-Windows-Infrastructure) | ✅ Completed |
-| IT-HomeLab-Cloud-Identity | 🚧 In Progress |
-| IT-HomeLab-Linux-Containers | ⏳ Planned |
+| IT-HomeLab-Cloud-Identity | ⏸️ Phase 17 On Hold |
+| IT-HomeLab-Linux-Containers | 🚧 Starting |
 | IT-HomeLab-Network-Security | ⏳ Planned |
 | IT-HomeLab-Automation-Monitoring | ⏳ Planned |
 
+> **Cloud & Identity:** The main Cloud & Identity work is complete. Only Phase 17 – Microsoft 365 Services remains on hold because of the Exchange Online issue.
+
 ---
 
-### ➡️ Next Repository *(Planned)*
+### ➡️ Next Repository
 
 **IT-HomeLab-Linux-Containers**
-The next repository will focus on Ubuntu Server, Docker, Portainer, container management, and Linux administration.
 
+The next repository will focus on Ubuntu Server, Docker, Portainer, container management, and Linux administration.
 ---
 
 ## License
