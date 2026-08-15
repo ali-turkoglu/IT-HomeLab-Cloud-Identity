@@ -130,13 +130,13 @@ To keep things simple, here is how the different parts of this HomeLab communica
 | Repository | Status |
 |------------|:------:|
 | [IT-HomeLab-Windows-Infrastructure](https://github.com/ali-turkoglu/IT-HomeLab-Windows-Infrastructure) | ✅ Completed |
-| IT-HomeLab-Cloud-Identity | ⏸️ Phase 17 On Hold |
+| IT-HomeLab-Cloud-Identity (Current Repository)| ✅ Completed* |
 | IT-HomeLab-Linux-Containers | 🚧 Starting |
 | IT-HomeLab-Network-Security | ⏳ Planned |
 | IT-HomeLab-Automation-Monitoring | ⏳ Planned |
 
-> **Cloud & Identity:** The main Cloud & Identity work is complete. Only Phase 17 – Microsoft 365 Services remains on hold because of the Exchange Online issue.
-
+* Cloud & Identity: Phases 13–16 and 18–20 are completed. Only Phase 17 – Microsoft 365 Services remains on hold because of an Exchange Online issue.
+  
 ---
 
 ### ➡️ Next Repository
