@@ -374,4 +374,4 @@ In **Phase 20**, I will start working with **Microsoft Intune** and use the conn
 
 | Previous                                                                    | Home                           | Next                                              |
 | --------------------------------------------------------------------------- | ------------------------------ | ------------------------------------------------- |
-| ⬅️ [**Phase 18: Cloud File Services**](../18–Cloud-File-Services/README.md) | 🏠 [**Home**](../../README.md) | ➡️ **Phase 20: Microsoft Intune** *(Coming Soon)* |
+| ⬅️ [**Phase 18: Cloud File Services**](../18–Cloud-File-Services/README.md) | 🏠 [**Home**](../../README.md) | ➡️ [**Phase 20: Microsoft Intune & Endpoint Management**](../20–Microsoft-Intune-Endpoint-Management/README.md) |
