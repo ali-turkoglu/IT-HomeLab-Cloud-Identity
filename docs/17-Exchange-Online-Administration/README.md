@@ -41,7 +41,7 @@ The mailbox was created as:
 
 | Create Shared Mailbox |
 |:---------------------:|
-| ![](images/01-add-shared-mailbox.png) |
+| ![](images/01-shared-mailbox-created.png) |
 
 ---
 
@@ -55,7 +55,7 @@ These permissions are configured separately in the Exchange Admin Center.
 
 | Configure Full Access | Configure Send As |
 |:---------------------:|:-----------------:|
-| ![](images/02-full-access-permission.png) | ![](images/03-send-as-permission.png) |
+| ![](images/02-shared-mailbox-full-access.png) | ![](images/03-shared-mailbox-send-as.png) |
 
 ---
 
@@ -65,7 +65,7 @@ The IT Support shared mailbox was opened successfully in Outlook on the web usin
 
 | Outlook on the Web (Shared Mailbox Access) |
 |:------------------------------------------:|
-| ![](images/04-outlook-shared-mailbox.png) |
+| ![](images/04-shared-mailbox-outlook-access.png) |
 
 ---
 
@@ -77,7 +77,7 @@ The external mailbox displayed IT Support as the sender, confirming that the Sen
 
 | Sending Email from Shared Mailbox | External Mail Delivery (Gmail) |
 |:---------------------------------:|:------------------------------:|
-| ![](images/05-send-as-test.png) | ![](images/06-external-delivery-gmail.png) |
+| ![](images/05-shared-mailbox-send-as-test.png) | ![](images/06-shared-mailbox-external-delivery.png) |
 
 ---
 
@@ -98,7 +98,7 @@ The distribution list was configured for internal use with the following setting
 
 | Create Distribution List | Configure Group Settings |
 |:------------------------:|:------------------------:|
-| ![](images/07-create-distribution-list.png) | ![](images/08-distribution-list-settings.png) |
+| ![](images/07-distribution-list-created.png) | ![](images/08-distribution-list-settings.png) |
 
 ---
 
@@ -108,10 +108,6 @@ A test message was sent to `it-notifications@ithomelab.onmicrosoft.com`.
 
 The message was successfully delivered to both the licensed user mailbox and the IT Support shared mailbox. This confirmed that Exchange Online successfully expanded the distribution list and delivered the message to its members.
 
-| Message Received in Licensed Mailbox | Message Received in Shared Mailbox |
-|:------------------------------------:|:----------------------------------:|
-| ![](images/09-dl-licensed-mailbox.png) | ![](images/10-dl-shared-mailbox.png) |
-
 ---
 
 ## 7. Message Trace & Distribution List Expansion Verification
@@ -120,9 +116,9 @@ Exchange Online **Message Trace** was used to investigate the test message sent 
 
 The test message was located by using information such as Sender, Recipient, Time range, and Message subject.
 
-| Message Trace Search | Message Trace Results |
-|:--------------------:|:---------------------:|
-| ![](images/11-message-trace-search.png) | ![](images/12-message-trace-results.png) |
+| Message Trace Search | 
+|:--------------------:|
+| ![](images/10-message-trace-distribution-test.png) | 
 
 The detailed Message Trace information showed how Exchange Online processed the message. The trace included events such as Receive, Submit, Expand DL, and Drop. 
 
@@ -130,7 +126,7 @@ The most important event in this scenario was **Expand DL**. This confirmed that
 
 | Message Trace Details (Expand DL) |
 |:---------------------------------:|
-| ![](images/13-message-trace-details.png) |
+| ![](images/11-message-trace-delivery-details.png) |
 
 ---
 
