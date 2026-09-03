@@ -95,20 +95,10 @@ To keep things simple, here is how the different parts of this HomeLab communica
 | ✅ | [Phase 14 – Microsoft Entra ID Fundamentals](docs/14-Microsoft-Entra-ID-Fundamentals/README.md) |
 | ✅ | [Phase 15 – Microsoft Entra ID Security](docs/15-Microsoft-Entra-ID-Security/README.md) |
 | ✅ | [Phase 16 – Microsoft Entra ID Connect Cloud Sync](docs/16-Microsoft-Entra-ID-Connect-Cloud-Sync/README.md) |
-| ⏸️ | Phase 17 – Microsoft 365 Services (Temporarily On Hold)|
+| ✅ | [Phase 17 – Exchange Online Administration](docs/17-Exchange-Online-Administration/README.md)|
 | ✅ | [Phase 18 – Cloud File Services](docs/18–Cloud-File-Services/README.md) |
 | ✅ | [Phase 19 – Microsoft Entra Connect & Hybrid Device Synchronization](docs/19–Entra-Connect-Hybrid-Device-Sync/README.md)
 | ✅ | [Phase 20 - Microsoft Intune & Endpoint Management](docs/20–Microsoft-Intune-Endpoint-Management/README.md)  |
-
-> **Note**
->
-> Phase 17 is temporarily on hold because Exchange Online is not working correctly in my Microsoft 365 tenant.
->
-> I opened a support ticket with Microsoft, and the issue is currently being investigated.
->
-> I will continue this phase after the Exchange Online problem is resolved.
->
-> Until then, I will continue with **Phase 18 – Cloud File Services**.
 
 ---
 
@@ -120,7 +110,8 @@ To keep things simple, here is how the different parts of this HomeLab communica
 - **03-08-2026** - Phase 16: Microsoft Entra Connect Cloud Sync completed.
 - **09-08-2026** - Phase 18: Cloud File Services completed.
 - **12-08-2026** - Phase 19: Microsoft Entra Connect & Hybrid Device Synchronization completed.
-- **15-08-2026** - Phase 20: Microsoft Intune & Endpoint Management completed. 
+- **15-08-2026** - Phase 20: Microsoft Intune & Endpoint Management completed.
+- **03-09-2026** - Phase 17: Exchange Online Administration completed. 
   
 ---
 
@@ -134,8 +125,6 @@ To keep things simple, here is how the different parts of this HomeLab communica
 | [IT-HomeLab-Linux-Containers](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration) | 🚧 Starting |
 | IT-HomeLab-Network-Security | ⏳ Planned |
 | IT-HomeLab-Automation-Monitoring | ⏳ Planned |
-
-* Cloud & Identity: Phases 13–16 and 18–20 are completed. Only Phase 17 – Microsoft 365 Services remains on hold because of an Exchange Online issue.
   
 ---
 
