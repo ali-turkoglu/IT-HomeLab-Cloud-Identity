@@ -35,13 +35,21 @@ In this phase, I configured the Microsoft Entra ID security features available i
 
 ## 1. Emergency Administrator Account (Break-Glass)
 
-Before configuring tenant-wide security policies, I created an Emergency Administrator (Break-Glass) account and assigned it the **Global Administrator** role. 
+> **Update – September 2026:** The Emergency Administrator account was updated with a separate OATH-TOTP authentication method after reviewing Microsoft's current mandatory MFA requirements.
 
-A highly complex password was configured for this account. Multi-Factor Authentication (MFA) was intentionally **not** configured for this specific account. Its primary purpose is to provide emergency administrative access if normal authentication methods (like the MFA service) experience a global outage or become unavailable. 
+An Emergency Administrator (Break-Glass) account was created and assigned the **Global Administrator** role.
+
+A strong password was configured for the account. The account was later updated with a separate MFA configuration using **Google Authenticator (Software OATH/TOTP)**. A phone number was also registered as an additional authentication method.
+
+The configuration was tested by signing in with the Emergency Administrator account using the account password followed by a six-digit Google Authenticator code. The sign-in was completed successfully.
 
 | Create Emergency Admin | Assign Global Administrator Role |
 |:----------------------:|:--------------------------------:|
 | ![](images/09-create-emergency-admin-user.png) | ![](images/11-global-admin-assignment.png) |
+
+| Software OATH Token Policy | Emergency Admin MFA |
+|:--------------------------:|:-------------------:|
+| ![](images/17-software-oath-token-policy.png) | ![](images/18-emergency-admin-oath-added.png) |
 
 ---
 
