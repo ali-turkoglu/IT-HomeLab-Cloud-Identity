@@ -475,4 +475,4 @@ The important result was understanding how the different Microsoft technologies 
 
 | **Previous** | **Home** | **Next** |
 |---|---|---|
-| ⬅️ [**Phase 19: Entra Connect & Hybrid Device Sync**](../19–Entra-Connect-Hybrid-Device-Sync/README.md) | 🏠 [**Home**](../../README.md) | ➡️ Enterprise Linux & Containers Lab *(Coming Soon)* |
+| ⬅️ [**Phase 19: Entra Connect & Hybrid Device Sync**](../19–Entra-Connect-Hybrid-Device-Sync/README.md) | 🏠 [**Home**](../../README.md) | ➡️ [IT-HomeLab-Linux-Administration](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration) |
