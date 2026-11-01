@@ -32,11 +32,11 @@ This project continues the infrastructure built in the previous repository.
 
 The main goals of this repository are:
 
-- Learn Microsoft Entra ID.
-- Manage Microsoft 365 services.
-- Build a hybrid identity environment.
-- Practice cloud administration.
-- Document every phase on GitHub.
+- Implement and manage Microsoft Entra ID.
+- Configure and manage Microsoft 365 services.
+- Build and test a hybrid identity environment.
+- Apply cloud administration and security practices.
+- Document configurations, troubleshooting, and results on GitHub.
 
 ---
 
